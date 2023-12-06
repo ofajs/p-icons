@@ -1,14 +1,31 @@
 {
   "name": "p-icons",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "We have built-in `10445` icons in the `material` style. For custom icons provided by the user, we have a separate component called `p-svg-icon`.",
-  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "keywords": ["icon", "material", "web components"], 
+  "files": [
+    "lib/",
+    "p-svg-icon.html",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "frmachao",
+    "email": "frmachao@gmail.com",
+    "url": "https://github.com/frmachao"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofajs/p-icons"
+  },
+  "bugs": {
+    "url": "https://github.com/ofajs/p-icons/issues"
+  },
+  "homepage": "https://github.com/ofajs/p-icons",
+  "license": "MIT"
 }
