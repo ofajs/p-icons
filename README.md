@@ -8,20 +8,20 @@ Built-in ICONS:
 
 ```html
 <delete-icon></delete-icon>
-<delete-icon size="small" color="danger"></delete-icon>
-<delete-icon size="large" color="success"></delete-icon>
+<delete-icon style="color: pink;" size="small"></delete-icon>
+<delete-icon size="large"></delete-icon>
 ```
 
-Custom style by `--icon-size` and `--icon-color`:
+Custom style by `--icon-size`:
 
 ```html
-<delete-icon style="--icon-size: 50px; --icon-color: hotpink"></delete-icon>
+<delete-icon style="--icon-size: 50px;color: pink"></delete-icon>
 ```
 
 Custom Icon svg-icon:
 
 ```html
-<p-svg-icon size="large" color="success">
+<p-svg-icon size="large" style="color: pink;">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"

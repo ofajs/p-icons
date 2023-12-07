@@ -5,30 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>p-icon</title>
     <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.3.41/dist/ofa.min.js"></script>
-    <link rel="stylesheet" href="../css/public.css" />
   </head>
 
   <body>
     <l-m src="./p-svg-icon.html"></l-m>
-    <l-m src="../../ancillary/dark-switch.html"></l-m>
     <l-m src="./lib/delete-icon.html"></l-m>
     <div>
-      <dark-switch></dark-switch>
       <p>
         Built-in ICONS:
         <delete-icon></delete-icon>
-        <delete-icon size="small" color="danger"></delete-icon>
-        <delete-icon size="large" color="success"></delete-icon>
+        <delete-icon style="color: pink;" size="small"></delete-icon>
+        <delete-icon size="large"></delete-icon>
       </p>
       <p>
-        custom style by `--icon-size` and `--icon-color`:
+        custom style by `--icon-size`:
         <delete-icon
-          style="--icon-size: 50px; --icon-color: hotpink"
+          style="--icon-size: 50px;color: pink;"
         ></delete-icon>
       </p>
       <p>
         Custom Icon svg-icon:
-        <p-svg-icon size="large" color="success">
+        <p-svg-icon style="color: pink;" size="large">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
