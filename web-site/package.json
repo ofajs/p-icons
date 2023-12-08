@@ -12,6 +12,7 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "^5.14.19",
     "@mui/material": "latest",
+    "lodash": "^4.17.21",
     "react": "latest",
     "react-code-blocks": "^0.1.5",
     "react-dom": "latest"

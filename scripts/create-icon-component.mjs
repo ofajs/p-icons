@@ -17,7 +17,7 @@ function generateHTML(svgContent, convertedName) {
   templateContent = templateContent.replace(svgPattern, svgContent);
 
   const namePattern = "component-name-placeholder";
-  const componentName = `${convertedName}`;
+  const componentName = `${convertedName}-icon`;
   templateContent = templateContent.replace(namePattern, componentName);
   return templateContent;
 }
@@ -57,7 +57,7 @@ svgFiles.forEach((svgFile) => {
   const finalSvg = cleanSvgPath(svgContent);
 
   const htmlContent = generateHTML(finalSvg, convertedName);
-  const htmlFileName = `${convertedName}.html`;
+  const htmlFileName = `${convertedName}-icon.html`;
   const htmlFilePath = path.join(componentDirname, htmlFileName);
 
   fs.writeFileSync(htmlFilePath, htmlContent, "utf8");
