@@ -80,5 +80,5 @@ export default function myDestRewriter(svgName) {
     return `${twoDigitNumbers1[fileName[1]]}${fileName.slice(2)}`;
   }
 
-  return fileName;
+  return `${fileName}-icon`;
 }
