@@ -13,6 +13,7 @@ jobs:
           version: 8
       - name: Use Node.js 18
         uses: actions/setup-node@v3
+        working-directory: web-site
         with:
           node-version: 18
           cache: 'pnpm'
