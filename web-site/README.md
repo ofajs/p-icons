@@ -1,5 +1,3 @@
-# Material UI - Vite.js example
-
 ## How to use
 
 Download the example [or clone the repo](https://github.com/mui/material-ui):
@@ -26,14 +24,9 @@ or:
 
 [![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/material-ui-vite)
 
-## The idea behind the example
+## How to Deploy web-site
 
-This example uses [Vite.js](https://github.com/vitejs/vite).
-It includes `@mui/material` and its peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI v5.
+We have defined a `GitHub Actions` event trigger using `on: workflow_dispatch`. It specifies a manual trigger event, allowing the workflow to be triggered manually via the GitHub interface.
 
-## What's next?
+Specifically, when you click on the `Actions` tab on the repository page in GitHub, and then select the relevant workflow, a `Run workflow` button will appear. When you click this button, it will trigger the event associated with that workflow.
 
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
