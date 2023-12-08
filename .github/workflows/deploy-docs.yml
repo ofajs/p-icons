@@ -26,9 +26,8 @@ jobs:
 
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
-        working-directory: web-site
         env:
           REPO: git@github.com:owner/repo.git
           BRANCH: main
-          FOLDER: dist
+          FOLDER: web-site/dist
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_DOCS_PRIVATE_KEY }}
