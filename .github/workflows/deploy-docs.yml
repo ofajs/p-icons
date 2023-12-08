@@ -14,15 +14,16 @@ jobs:
       - name: Use Node.js 18
         uses: actions/setup-node@v3
         with:
+          cache-dependency-path: web-site/pnpm-lock.yaml
           node-version: 18
           cache: 'pnpm'
-          working-directory: web-site
+
       - name: Install dependencies
         run: pnpm install
         working-directory: web-site
 
       - name: Build project
-        run: npm run build
+        run: pnpm run build
         working-directory: web-site
 
       - name: Deploy
