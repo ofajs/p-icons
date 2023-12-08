@@ -26,7 +26,8 @@ or:
 
 ## How to Deploy web-site
 
-We have defined a `GitHub Actions` event trigger using `on: workflow_dispatch`. It specifies a manual trigger event, allowing the workflow to be triggered manually via the GitHub interface.
+We have defined a `GitHub Actions` event trigger `Deploy Docs WebSite` using `on: workflow_dispatch`. It specifies a manual trigger event, allowing the workflow to be triggered manually via the GitHub interface.
 
-Specifically, when you click on the `Actions` tab on the repository page in GitHub, and then select the relevant workflow, a `Run workflow` button will appear. When you click this button, it will trigger the event associated with that workflow.
+Specifically, when you click on the `Actions` tab on the repository page in GitHub, and then select the  `Deploy Docs WebSite` workflow, a `Run workflow` button will appear. When you click this button, it will trigger the event associated with that workflow.
+
 
