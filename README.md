@@ -43,8 +43,11 @@ Custom Icon svg-icon:
   </svg>
 </p-svg-icon>
 ```
-
+## p-icon props
 | name | type | default | description |
 | --- | --- | --- | --- |
 | name | string | required | icon name |
-| root-path | string | https://cdn.jsdelivr.net/npm/p-icons/lib/ | Can use: `network address`, `relative path`, `absolute path`, `file path`, default uses the official p-icons hosting address |
+| root-path | string | https://cdn.jsdelivr.net/npm/p-icons/lib/ | an use: network address, relative path, absolute path, file path, default uses the official p-icons hosting address |
+| size | string | normal | small: 1.25rem; normal:1.5rem
+large:2.1rem; |
+

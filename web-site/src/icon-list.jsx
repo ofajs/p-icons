@@ -17,7 +17,6 @@ import {
 import "./css/icon-list.css";
 import { useIconListContext } from "./contexts/icon-list";
 import { CopyBlock, dracula } from "react-code-blocks";
-import ShowIcon from "./components/show-icon";
 import debounce from "lodash/debounce";
 
 function SearchBox() {
@@ -92,15 +91,9 @@ function ListWithPagination() {
   return (
     <Box>
       <Grid container spacing={2}>
-        {/* 测试直接引入 */}
-        {/* <l-m src="https://cdn.jsdelivr.net/npm/p-icons/lib/abc-icon.html"></l-m> */}
         {paginatedData.map((item, index) => (
           <Grid item key={index}>
-            <l-m
-              src={`https://cdn.jsdelivr.net/npm/p-icons/lib/${item.name}-icon.html`}
-            ></l-m>
             <Card
-              onClick={() => handleCardClick(item)}
               className="p-icon-container"
               sx={{
                 bgcolor: "#F3F6F9",
@@ -108,17 +101,12 @@ function ListWithPagination() {
             >
               <Box
                 className="p-icon-item"
+                onClick={() => handleCardClick(item)}
                 sx={{
-                  display: "flex",
-                  padding: 1,
-                  ":hover": { background: "#ffff", cursor: "pointer" },
+                  ":hover": { background: "#ffff",cursor: "pointer" },
                 }}
               >
-                <ShowIcon
-                  htmlString={`<${item.name}-icon></${item.name}-icon>`}
-                ></ShowIcon>
-                {/* 测试直接使用 */}
-                {/* <twenty-fourMp-sharp-icon></twenty-fourMp-sharp-icon> */}
+                 <p-icon size='large' name={item.name}></p-icon>
               </Box>
               <Box className="p-icon-ellipsis">
                 <Typography variant="caption" color="text.secondary">
@@ -140,15 +128,13 @@ function ListWithPagination() {
           <DialogTitle>{selectedCard.name}</DialogTitle>
           <DialogContent sx={{ minWidth: 400 }}>
             <CopyBlock
-              text={`<${selectedCard.name}-icon></${selectedCard.name}-icon>`}
+              text={`<p-icon name="${selectedCard.name}"></p-icon>`}
               language="html"
               showLineNumbers="true"
               theme={dracula}
             ></CopyBlock>
-            <Card sx={{textAlign:'center',padding:1,my:2}}>
-              <ShowIcon
-                htmlString={`<${selectedCard.name}-icon></${selectedCard.name}-icon>`}
-              ></ShowIcon>
+            <Card sx={{textAlign:'center',padding:1,my:2, bgcolor: "#F3F6F9",}}>
+              <p-icon size='large' name={selectedCard.name}></p-icon>
             </Card>
           </DialogContent>
           <DialogActions>

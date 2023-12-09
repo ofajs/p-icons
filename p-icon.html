@@ -35,10 +35,10 @@
           svg: "",
         },
         attrs: {
-          size: null,
+          size: '',
           name: null,
           // 可以使用：网络地址、相对路径、绝对路径、文件路径 ，默认使用 p-icons 官方托管的地址 
-          rootPath: "lib"
+          rootPath: "https://cdn.jsdelivr.net/npm/p-icons/lib/"
         },
         proto: {
           async renderCom() {
@@ -53,12 +53,12 @@
             }
             try {
               this.loading = true
-              const finalPath = this.joinPath(this.rootPath, `${this.name}2.svg`);
+              const finalPath = this.joinPath(this.rootPath, `${this.name}.svg`);
               const svgResult = await load(finalPath).then(res => res.text());
               this.loading = false
               this.svg = svgResult;
             } catch (error) {
-              console.error(`Failed to load ${this.name}-icon.html`)
+              console.error(`Failed to load ${this.name}.svg`)
             }
           },
           joinPath(...paths) {
