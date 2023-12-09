@@ -7,20 +7,28 @@ We have built-in `10445` icons in the `material` style. For custom icons provide
 Built-in ICONS:
 
 ```html
-<delete-icon></delete-icon>
-<delete-icon style="color: pink;" size="small"></delete-icon>
-<delete-icon size="large"></delete-icon>
+<l-m src="./p-icon.html"></l-m>
+<p-icon name="abc"></p-icon>
+<p-icon name="abc" size="large"></p-icon>
+<p-icon name="access-alarm" size="large" style="color: pink;"></p-icon>
 ```
 
 Custom style by `--icon-size`:
 
 ```html
-<delete-icon style="--icon-size: 50px;color: pink"></delete-icon>
+<p-icon name="access-alarm" style="--icon-size: 50px;color: pink;"></p-icon>
+```
+
+Custom `root-path`:
+
+```html
+<p-icon name="abc" root-path="https://www.example.com"></p-icon>
 ```
 
 Custom Icon svg-icon:
 
 ```html
+<l-m src="./p-svg-icon.html"></l-m>
 <p-svg-icon size="large" style="color: pink;">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -35,3 +43,8 @@ Custom Icon svg-icon:
   </svg>
 </p-svg-icon>
 ```
+
+| name | type | default | description |
+| --- | --- | --- | --- |
+| name | string | required | icon name |
+| root-path | string | https://cdn.jsdelivr.net/npm/p-icons/lib/ | Can use: `network address`, `relative path`, `absolute path`, `file path`, default uses the official p-icons hosting address |

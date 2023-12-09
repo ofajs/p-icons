@@ -9,22 +9,33 @@
 
   <body>
     <l-m src="./p-svg-icon.html"></l-m>
-    <l-m src="./lib/delete-icon.html"></l-m>
+    <l-m src="./p-icon.html"></l-m>
     <div>
       <p>
-        Built-in ICONS:
-        <delete-icon></delete-icon>
-        <delete-icon style="color: pink;" size="small"></delete-icon>
-        <delete-icon size="large"></delete-icon>
+        basic use `p-icon`:
+        <!-- <p-icon name="abc"></p-icon>
+        <p-icon name="abc" size="large"></p-icon>
+        <p-icon root-path="sss" name="access-alarm" size="large" style="color: pink;"></p-icon> -->
       </p>
       <p>
         custom style by `--icon-size`:
-        <delete-icon
-          style="--icon-size: 50px;color: pink;"
-        ></delete-icon>
+        <p-icon name="access-alarm" style="--icon-size: 50px;color: pink;"></p-icon>
       </p>
       <p>
-        Custom Icon svg-icon:
+        Custom Icon `svg-icon`:
+        <p-svg-icon>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M6 15h1.5V9H5v1.5h1V15Zm3.5 0H12q.425 0 .713-.288T13 14v-4q0-.425-.288-.713T12 9H9.5q-.425 0-.713.288T8.5 10v4q0 .425.288.713T9.5 15Zm.5-1.5v-3h1.5v3H10Zm4 1.5h1.5v-2.25L17.25 15H19l-2.25-3L19 9h-1.75l-1.75 2.25V9H14v6Zm-9 6q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.588 1.413T19 21H5Z"
+            />
+          </svg>
+        </p-svg-icon>
         <p-svg-icon style="color: pink;" size="large">
           <svg
             xmlns="http://www.w3.org/2000/svg"

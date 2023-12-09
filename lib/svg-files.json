@@ -2,829 +2,829 @@
   "total": 10444,
   "fileNames": [
     {
-      "name": "oneKk"
+      "name": "10k"
     },
     {
-      "name": "oneKk-outlined"
+      "name": "10k-outlined"
     },
     {
-      "name": "oneKk-rounded"
+      "name": "10k-rounded"
     },
     {
-      "name": "oneKk-sharp"
+      "name": "10k-sharp"
     },
     {
-      "name": "oneKk-two-tone"
+      "name": "10k-two-tone"
     },
     {
-      "name": "tenMp"
+      "name": "10mp"
     },
     {
-      "name": "tenMp-outlined"
+      "name": "10mp-outlined"
     },
     {
-      "name": "tenMp-rounded"
+      "name": "10mp-rounded"
     },
     {
-      "name": "tenMp-sharp"
+      "name": "10mp-sharp"
     },
     {
-      "name": "tenMp-two-tone"
+      "name": "10mp-two-tone"
     },
     {
-      "name": "elevenMp"
+      "name": "11mp"
     },
     {
-      "name": "elevenMp-outlined"
+      "name": "11mp-outlined"
     },
     {
-      "name": "elevenMp-rounded"
+      "name": "11mp-rounded"
     },
     {
-      "name": "elevenMp-sharp"
+      "name": "11mp-sharp"
     },
     {
-      "name": "elevenMp-two-tone"
+      "name": "11mp-two-tone"
     },
     {
-      "name": "twelveMp"
+      "name": "12mp"
     },
     {
-      "name": "twelveMp-outlined"
+      "name": "12mp-outlined"
     },
     {
-      "name": "twelveMp-rounded"
+      "name": "12mp-rounded"
     },
     {
-      "name": "twelveMp-sharp"
+      "name": "12mp-sharp"
     },
     {
-      "name": "twelveMp-two-tone"
+      "name": "12mp-two-tone"
     },
     {
-      "name": "thirteenMp"
+      "name": "13mp"
     },
     {
-      "name": "thirteenMp-outlined"
+      "name": "13mp-outlined"
     },
     {
-      "name": "thirteenMp-rounded"
+      "name": "13mp-rounded"
     },
     {
-      "name": "thirteenMp-sharp"
+      "name": "13mp-sharp"
     },
     {
-      "name": "thirteenMp-two-tone"
+      "name": "13mp-two-tone"
     },
     {
-      "name": "fourteenMp"
+      "name": "14mp"
     },
     {
-      "name": "fourteenMp-outlined"
+      "name": "14mp-outlined"
     },
     {
-      "name": "fourteenMp-rounded"
+      "name": "14mp-rounded"
     },
     {
-      "name": "fourteenMp-sharp"
+      "name": "14mp-sharp"
     },
     {
-      "name": "fourteenMp-two-tone"
+      "name": "14mp-two-tone"
     },
     {
-      "name": "fifteenMp"
+      "name": "15mp"
     },
     {
-      "name": "fifteenMp-outlined"
+      "name": "15mp-outlined"
     },
     {
-      "name": "fifteenMp-rounded"
+      "name": "15mp-rounded"
     },
     {
-      "name": "fifteenMp-sharp"
+      "name": "15mp-sharp"
     },
     {
-      "name": "fifteenMp-two-tone"
+      "name": "15mp-two-tone"
     },
     {
-      "name": "sixteenMp"
+      "name": "16mp"
     },
     {
-      "name": "sixteenMp-outlined"
+      "name": "16mp-outlined"
     },
     {
-      "name": "sixteenMp-rounded"
+      "name": "16mp-rounded"
     },
     {
-      "name": "sixteenMp-sharp"
+      "name": "16mp-sharp"
     },
     {
-      "name": "sixteenMp-two-tone"
+      "name": "16mp-two-tone"
     },
     {
-      "name": "seventeenMp"
+      "name": "17mp"
     },
     {
-      "name": "seventeenMp-outlined"
+      "name": "17mp-outlined"
     },
     {
-      "name": "seventeenMp-rounded"
+      "name": "17mp-rounded"
     },
     {
-      "name": "seventeenMp-sharp"
+      "name": "17mp-sharp"
     },
     {
-      "name": "seventeenMp-two-tone"
+      "name": "17mp-two-tone"
     },
     {
-      "name": "eighteen-up-rating"
+      "name": "18-up-rating"
     },
     {
-      "name": "eighteen-up-rating-outlined"
+      "name": "18-up-rating-outlined"
     },
     {
-      "name": "eighteen-up-rating-rounded"
+      "name": "18-up-rating-rounded"
     },
     {
-      "name": "eighteen-up-rating-sharp"
+      "name": "18-up-rating-sharp"
     },
     {
-      "name": "eighteen-up-rating-two-tone"
+      "name": "18-up-rating-two-tone"
     },
     {
-      "name": "eighteenMp"
+      "name": "18mp"
     },
     {
-      "name": "eighteenMp-outlined"
+      "name": "18mp-outlined"
     },
     {
-      "name": "eighteenMp-rounded"
+      "name": "18mp-rounded"
     },
     {
-      "name": "eighteenMp-sharp"
+      "name": "18mp-sharp"
     },
     {
-      "name": "eighteenMp-two-tone"
+      "name": "18mp-two-tone"
     },
     {
-      "name": "nineteenMp"
+      "name": "19mp"
     },
     {
-      "name": "nineteenMp-outlined"
+      "name": "19mp-outlined"
     },
     {
-      "name": "nineteenMp-rounded"
+      "name": "19mp-rounded"
     },
     {
-      "name": "nineteenMp-sharp"
+      "name": "19mp-sharp"
     },
     {
-      "name": "nineteenMp-two-tone"
+      "name": "19mp-two-tone"
     },
     {
-      "name": "oneK"
+      "name": "1k"
     },
     {
-      "name": "oneK-outlined"
+      "name": "1k-outlined"
     },
     {
-      "name": "oneK-plus"
+      "name": "1k-plus"
     },
     {
-      "name": "oneK-plus-outlined"
+      "name": "1k-plus-outlined"
     },
     {
-      "name": "oneK-plus-rounded"
+      "name": "1k-plus-rounded"
     },
     {
-      "name": "oneK-plus-sharp"
+      "name": "1k-plus-sharp"
     },
     {
-      "name": "oneK-plus-two-tone"
+      "name": "1k-plus-two-tone"
     },
     {
-      "name": "oneK-rounded"
+      "name": "1k-rounded"
     },
     {
-      "name": "oneK-sharp"
+      "name": "1k-sharp"
     },
     {
-      "name": "oneK-two-tone"
+      "name": "1k-two-tone"
     },
     {
-      "name": "times-one--mobiledata"
+      "name": "1x-mobiledata"
     },
     {
-      "name": "times-one--mobiledata-outlined"
+      "name": "1x-mobiledata-outlined"
     },
     {
-      "name": "times-one--mobiledata-rounded"
+      "name": "1x-mobiledata-rounded"
     },
     {
-      "name": "times-one--mobiledata-sharp"
+      "name": "1x-mobiledata-sharp"
     },
     {
-      "name": "times-one--mobiledata-two-tone"
+      "name": "1x-mobiledata-two-tone"
     },
     {
-      "name": "twenty-zeroMp"
+      "name": "20mp"
     },
     {
-      "name": "twenty-zeroMp-outlined"
+      "name": "20mp-outlined"
     },
     {
-      "name": "twenty-zeroMp-rounded"
+      "name": "20mp-rounded"
     },
     {
-      "name": "twenty-zeroMp-sharp"
+      "name": "20mp-sharp"
     },
     {
-      "name": "twenty-zeroMp-two-tone"
+      "name": "20mp-two-tone"
     },
     {
-      "name": "twenty-oneMp"
+      "name": "21mp"
     },
     {
-      "name": "twenty-oneMp-outlined"
+      "name": "21mp-outlined"
     },
     {
-      "name": "twenty-oneMp-rounded"
+      "name": "21mp-rounded"
     },
     {
-      "name": "twenty-oneMp-sharp"
+      "name": "21mp-sharp"
     },
     {
-      "name": "twenty-oneMp-two-tone"
+      "name": "21mp-two-tone"
     },
     {
-      "name": "twenty-twoMp"
+      "name": "22mp"
     },
     {
-      "name": "twenty-twoMp-outlined"
+      "name": "22mp-outlined"
     },
     {
-      "name": "twenty-twoMp-rounded"
+      "name": "22mp-rounded"
     },
     {
-      "name": "twenty-twoMp-sharp"
+      "name": "22mp-sharp"
     },
     {
-      "name": "twenty-twoMp-two-tone"
+      "name": "22mp-two-tone"
     },
     {
-      "name": "twenty-threeMp"
+      "name": "23mp"
     },
     {
-      "name": "twenty-threeMp-outlined"
+      "name": "23mp-outlined"
     },
     {
-      "name": "twenty-threeMp-rounded"
+      "name": "23mp-rounded"
     },
     {
-      "name": "twenty-threeMp-sharp"
+      "name": "23mp-sharp"
     },
     {
-      "name": "twenty-threeMp-two-tone"
+      "name": "23mp-two-tone"
     },
     {
-      "name": "twenty-fourMp"
+      "name": "24mp"
     },
     {
-      "name": "twenty-fourMp-outlined"
+      "name": "24mp-outlined"
     },
     {
-      "name": "twenty-fourMp-rounded"
+      "name": "24mp-rounded"
     },
     {
-      "name": "twenty-fourMp-sharp"
+      "name": "24mp-sharp"
     },
     {
-      "name": "twenty-fourMp-two-tone"
+      "name": "24mp-two-tone"
     },
     {
-      "name": "twoK"
+      "name": "2k"
     },
     {
-      "name": "twoK-outlined"
+      "name": "2k-outlined"
     },
     {
-      "name": "twoK-plus"
+      "name": "2k-plus"
     },
     {
-      "name": "twoK-plus-outlined"
+      "name": "2k-plus-outlined"
     },
     {
-      "name": "twoK-plus-rounded"
+      "name": "2k-plus-rounded"
     },
     {
-      "name": "twoK-plus-sharp"
+      "name": "2k-plus-sharp"
     },
     {
-      "name": "twoK-plus-two-tone"
+      "name": "2k-plus-two-tone"
     },
     {
-      "name": "twoK-rounded"
+      "name": "2k-rounded"
     },
     {
-      "name": "twoK-sharp"
+      "name": "2k-sharp"
     },
     {
-      "name": "twoK-two-tone"
+      "name": "2k-two-tone"
     },
     {
-      "name": "twoMp"
+      "name": "2mp"
     },
     {
-      "name": "twoMp-outlined"
+      "name": "2mp-outlined"
     },
     {
-      "name": "twoMp-rounded"
+      "name": "2mp-rounded"
     },
     {
-      "name": "twoMp-sharp"
+      "name": "2mp-sharp"
     },
     {
-      "name": "twoMp-two-tone"
+      "name": "2mp-two-tone"
     },
     {
-      "name": "thirty-fps"
+      "name": "30fps"
     },
     {
-      "name": "thirty-fps-outlined"
+      "name": "30fps-outlined"
     },
     {
-      "name": "thirty-fps-rounded"
+      "name": "30fps-rounded"
     },
     {
-      "name": "thirty-fps-select"
+      "name": "30fps-select"
     },
     {
-      "name": "thirty-fps-select-outlined"
+      "name": "30fps-select-outlined"
     },
     {
-      "name": "thirty-fps-select-rounded"
+      "name": "30fps-select-rounded"
     },
     {
-      "name": "thirty-fps-select-sharp"
+      "name": "30fps-select-sharp"
     },
     {
-      "name": "thirty-fps-select-two-tone"
+      "name": "30fps-select-two-tone"
     },
     {
-      "name": "thirty-fps-sharp"
+      "name": "30fps-sharp"
     },
     {
-      "name": "thirty-fps-two-tone"
+      "name": "30fps-two-tone"
     },
     {
-      "name": "three-sixty"
+      "name": "360"
     },
     {
-      "name": "three-sixty-outlined"
+      "name": "360-outlined"
     },
     {
-      "name": "three-sixty-rounded"
+      "name": "360-rounded"
     },
     {
-      "name": "three-sixty-sharp"
+      "name": "360-sharp"
     },
     {
-      "name": "three-sixty-two-tone"
+      "name": "360-two-tone"
     },
     {
-      "name": "three-rotation"
+      "name": "3d-rotation"
     },
     {
-      "name": "three-rotation-outlined"
+      "name": "3d-rotation-outlined"
     },
     {
-      "name": "three-rotation-rounded"
+      "name": "3d-rotation-rounded"
     },
     {
-      "name": "three-rotation-sharp"
+      "name": "3d-rotation-sharp"
     },
     {
-      "name": "three-rotation-two-tone"
+      "name": "3d-rotation-two-tone"
     },
     {
-      "name": "three-g--mobiledata"
+      "name": "3g-mobiledata"
     },
     {
-      "name": "three-g--mobiledata-outlined"
+      "name": "3g-mobiledata-outlined"
     },
     {
-      "name": "three-g--mobiledata-rounded"
+      "name": "3g-mobiledata-rounded"
     },
     {
-      "name": "three-g--mobiledata-sharp"
+      "name": "3g-mobiledata-sharp"
     },
     {
-      "name": "three-g--mobiledata-two-tone"
+      "name": "3g-mobiledata-two-tone"
     },
     {
-      "name": "threeK"
+      "name": "3k"
     },
     {
-      "name": "threeK-outlined"
+      "name": "3k-outlined"
     },
     {
-      "name": "threeK-plus"
+      "name": "3k-plus"
     },
     {
-      "name": "threeK-plus-outlined"
+      "name": "3k-plus-outlined"
     },
     {
-      "name": "threeK-plus-rounded"
+      "name": "3k-plus-rounded"
     },
     {
-      "name": "threeK-plus-sharp"
+      "name": "3k-plus-sharp"
     },
     {
-      "name": "threeK-plus-two-tone"
+      "name": "3k-plus-two-tone"
     },
     {
-      "name": "threeK-rounded"
+      "name": "3k-rounded"
     },
     {
-      "name": "threeK-sharp"
+      "name": "3k-sharp"
     },
     {
-      "name": "threeK-two-tone"
+      "name": "3k-two-tone"
     },
     {
-      "name": "threeMp"
+      "name": "3mp"
     },
     {
-      "name": "threeMp-outlined"
+      "name": "3mp-outlined"
     },
     {
-      "name": "threeMp-rounded"
+      "name": "3mp-rounded"
     },
     {
-      "name": "threeMp-sharp"
+      "name": "3mp-sharp"
     },
     {
-      "name": "threeMp-two-tone"
+      "name": "3mp-two-tone"
     },
     {
-      "name": "three-p"
+      "name": "3p"
     },
     {
-      "name": "three-p-outlined"
+      "name": "3p-outlined"
     },
     {
-      "name": "three-p-rounded"
+      "name": "3p-rounded"
     },
     {
-      "name": "three-p-sharp"
+      "name": "3p-sharp"
     },
     {
-      "name": "three-p-two-tone"
+      "name": "3p-two-tone"
     },
     {
-      "name": "four-g--mobiledata"
+      "name": "4g-mobiledata"
     },
     {
-      "name": "four-g--mobiledata-outlined"
+      "name": "4g-mobiledata-outlined"
     },
     {
-      "name": "four-g--mobiledata-rounded"
+      "name": "4g-mobiledata-rounded"
     },
     {
-      "name": "four-g--mobiledata-sharp"
+      "name": "4g-mobiledata-sharp"
     },
     {
-      "name": "four-g--mobiledata-two-tone"
+      "name": "4g-mobiledata-two-tone"
     },
     {
-      "name": "four-g--plus-mobiledata"
+      "name": "4g-plus-mobiledata"
     },
     {
-      "name": "four-g--plus-mobiledata-outlined"
+      "name": "4g-plus-mobiledata-outlined"
     },
     {
-      "name": "four-g--plus-mobiledata-rounded"
+      "name": "4g-plus-mobiledata-rounded"
     },
     {
-      "name": "four-g--plus-mobiledata-sharp"
+      "name": "4g-plus-mobiledata-sharp"
     },
     {
-      "name": "four-g--plus-mobiledata-two-tone"
+      "name": "4g-plus-mobiledata-two-tone"
     },
     {
-      "name": "fourK"
+      "name": "4k"
     },
     {
-      "name": "fourK-outlined"
+      "name": "4k-outlined"
     },
     {
-      "name": "fourK-plus"
+      "name": "4k-plus"
     },
     {
-      "name": "fourK-plus-outlined"
+      "name": "4k-plus-outlined"
     },
     {
-      "name": "fourK-plus-rounded"
+      "name": "4k-plus-rounded"
     },
     {
-      "name": "fourK-plus-sharp"
+      "name": "4k-plus-sharp"
     },
     {
-      "name": "fourK-plus-two-tone"
+      "name": "4k-plus-two-tone"
     },
     {
-      "name": "fourK-rounded"
+      "name": "4k-rounded"
     },
     {
-      "name": "fourK-sharp"
+      "name": "4k-sharp"
     },
     {
-      "name": "fourK-two-tone"
+      "name": "4k-two-tone"
     },
     {
-      "name": "fourMp"
+      "name": "4mp"
     },
     {
-      "name": "fourMp-outlined"
+      "name": "4mp-outlined"
     },
     {
-      "name": "fourMp-rounded"
+      "name": "4mp-rounded"
     },
     {
-      "name": "fourMp-sharp"
+      "name": "4mp-sharp"
     },
     {
-      "name": "fourMp-two-tone"
+      "name": "4mp-two-tone"
     },
     {
-      "name": "five-g"
+      "name": "5g"
     },
     {
-      "name": "five-g-outlined"
+      "name": "5g-outlined"
     },
     {
-      "name": "five-g-rounded"
+      "name": "5g-rounded"
     },
     {
-      "name": "five-g-sharp"
+      "name": "5g-sharp"
     },
     {
-      "name": "five-g-two-tone"
+      "name": "5g-two-tone"
     },
     {
-      "name": "fiveK"
+      "name": "5k"
     },
     {
-      "name": "fiveK-outlined"
+      "name": "5k-outlined"
     },
     {
-      "name": "fiveK-plus"
+      "name": "5k-plus"
     },
     {
-      "name": "fiveK-plus-outlined"
+      "name": "5k-plus-outlined"
     },
     {
-      "name": "fiveK-plus-rounded"
+      "name": "5k-plus-rounded"
     },
     {
-      "name": "fiveK-plus-sharp"
+      "name": "5k-plus-sharp"
     },
     {
-      "name": "fiveK-plus-two-tone"
+      "name": "5k-plus-two-tone"
     },
     {
-      "name": "fiveK-rounded"
+      "name": "5k-rounded"
     },
     {
-      "name": "fiveK-sharp"
+      "name": "5k-sharp"
     },
     {
-      "name": "fiveK-two-tone"
+      "name": "5k-two-tone"
     },
     {
-      "name": "fiveMp"
+      "name": "5mp"
     },
     {
-      "name": "fiveMp-outlined"
+      "name": "5mp-outlined"
     },
     {
-      "name": "fiveMp-rounded"
+      "name": "5mp-rounded"
     },
     {
-      "name": "fiveMp-sharp"
+      "name": "5mp-sharp"
     },
     {
-      "name": "fiveMp-two-tone"
+      "name": "5mp-two-tone"
     },
     {
-      "name": "sixty-fps"
+      "name": "60fps"
     },
     {
-      "name": "sixty-fps-outlined"
+      "name": "60fps-outlined"
     },
     {
-      "name": "sixty-fps-rounded"
+      "name": "60fps-rounded"
     },
     {
-      "name": "sixty-fps-select"
+      "name": "60fps-select"
     },
     {
-      "name": "sixty-fps-select-outlined"
+      "name": "60fps-select-outlined"
     },
     {
-      "name": "sixty-fps-select-rounded"
+      "name": "60fps-select-rounded"
     },
     {
-      "name": "sixty-fps-select-sharp"
+      "name": "60fps-select-sharp"
     },
     {
-      "name": "sixty-fps-select-two-tone"
+      "name": "60fps-select-two-tone"
     },
     {
-      "name": "sixty-fps-sharp"
+      "name": "60fps-sharp"
     },
     {
-      "name": "sixty-fps-two-tone"
+      "name": "60fps-two-tone"
     },
     {
-      "name": "sixK"
+      "name": "6k"
     },
     {
-      "name": "sixK-outlined"
+      "name": "6k-outlined"
     },
     {
-      "name": "sixK-plus"
+      "name": "6k-plus"
     },
     {
-      "name": "sixK-plus-outlined"
+      "name": "6k-plus-outlined"
     },
     {
-      "name": "sixK-plus-rounded"
+      "name": "6k-plus-rounded"
     },
     {
-      "name": "sixK-plus-sharp"
+      "name": "6k-plus-sharp"
     },
     {
-      "name": "sixK-plus-two-tone"
+      "name": "6k-plus-two-tone"
     },
     {
-      "name": "sixK-rounded"
+      "name": "6k-rounded"
     },
     {
-      "name": "sixK-sharp"
+      "name": "6k-sharp"
     },
     {
-      "name": "sixK-two-tone"
+      "name": "6k-two-tone"
     },
     {
-      "name": "sixMp"
+      "name": "6mp"
     },
     {
-      "name": "sixMp-outlined"
+      "name": "6mp-outlined"
     },
     {
-      "name": "sixMp-rounded"
+      "name": "6mp-rounded"
     },
     {
-      "name": "sixMp-sharp"
+      "name": "6mp-sharp"
     },
     {
-      "name": "sixMp-two-tone"
+      "name": "6mp-two-tone"
     },
     {
-      "name": "sevenK"
+      "name": "7k"
     },
     {
-      "name": "sevenK-outlined"
+      "name": "7k-outlined"
     },
     {
-      "name": "sevenK-plus"
+      "name": "7k-plus"
     },
     {
-      "name": "sevenK-plus-outlined"
+      "name": "7k-plus-outlined"
     },
     {
-      "name": "sevenK-plus-rounded"
+      "name": "7k-plus-rounded"
     },
     {
-      "name": "sevenK-plus-sharp"
+      "name": "7k-plus-sharp"
     },
     {
-      "name": "sevenK-plus-two-tone"
+      "name": "7k-plus-two-tone"
     },
     {
-      "name": "sevenK-rounded"
+      "name": "7k-rounded"
     },
     {
-      "name": "sevenK-sharp"
+      "name": "7k-sharp"
     },
     {
-      "name": "sevenK-two-tone"
+      "name": "7k-two-tone"
     },
     {
-      "name": "sevenMp"
+      "name": "7mp"
     },
     {
-      "name": "sevenMp-outlined"
+      "name": "7mp-outlined"
     },
     {
-      "name": "sevenMp-rounded"
+      "name": "7mp-rounded"
     },
     {
-      "name": "sevenMp-sharp"
+      "name": "7mp-sharp"
     },
     {
-      "name": "sevenMp-two-tone"
+      "name": "7mp-two-tone"
     },
     {
-      "name": "eightK"
+      "name": "8k"
     },
     {
-      "name": "eightK-outlined"
+      "name": "8k-outlined"
     },
     {
-      "name": "eightK-plus"
+      "name": "8k-plus"
     },
     {
-      "name": "eightK-plus-outlined"
+      "name": "8k-plus-outlined"
     },
     {
-      "name": "eightK-plus-rounded"
+      "name": "8k-plus-rounded"
     },
     {
-      "name": "eightK-plus-sharp"
+      "name": "8k-plus-sharp"
     },
     {
-      "name": "eightK-plus-two-tone"
+      "name": "8k-plus-two-tone"
     },
     {
-      "name": "eightK-rounded"
+      "name": "8k-rounded"
     },
     {
-      "name": "eightK-sharp"
+      "name": "8k-sharp"
     },
     {
-      "name": "eightK-two-tone"
+      "name": "8k-two-tone"
     },
     {
-      "name": "eightMp"
+      "name": "8mp"
     },
     {
-      "name": "eightMp-outlined"
+      "name": "8mp-outlined"
     },
     {
-      "name": "eightMp-rounded"
+      "name": "8mp-rounded"
     },
     {
-      "name": "eightMp-sharp"
+      "name": "8mp-sharp"
     },
     {
-      "name": "eightMp-two-tone"
+      "name": "8mp-two-tone"
     },
     {
-      "name": "nineK"
+      "name": "9k"
     },
     {
-      "name": "nineK-outlined"
+      "name": "9k-outlined"
     },
     {
-      "name": "nineK-plus"
+      "name": "9k-plus"
     },
     {
-      "name": "nineK-plus-outlined"
+      "name": "9k-plus-outlined"
     },
     {
-      "name": "nineK-plus-rounded"
+      "name": "9k-plus-rounded"
     },
     {
-      "name": "nineK-plus-sharp"
+      "name": "9k-plus-sharp"
     },
     {
-      "name": "nineK-plus-two-tone"
+      "name": "9k-plus-two-tone"
     },
     {
-      "name": "nineK-rounded"
+      "name": "9k-rounded"
     },
     {
-      "name": "nineK-sharp"
+      "name": "9k-sharp"
     },
     {
-      "name": "nineK-two-tone"
+      "name": "9k-two-tone"
     },
     {
-      "name": "nineMp"
+      "name": "9mp"
     },
     {
-      "name": "nineMp-outlined"
+      "name": "9mp-outlined"
     },
     {
-      "name": "nineMp-rounded"
+      "name": "9mp-rounded"
     },
     {
-      "name": "nineMp-sharp"
+      "name": "9mp-sharp"
     },
     {
-      "name": "nineMp-two-tone"
+      "name": "9mp-two-tone"
     },
     {
       "name": "abc"

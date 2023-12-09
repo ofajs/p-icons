@@ -1,0 +1,90 @@
+<template component>
+  <style>
+    :host {
+      display: inline-block;
+      --pui-small-size: 1.25rem;
+      --pui-normal-size: 1.5rem;
+      --pui-large-size: 2.1rem;
+      --icon-size: --pui-normal-size;
+    }
+
+    .container {
+      display: block;
+    }
+
+    .container svg {
+      display: block;
+      width: var(--icon-size);
+      height: var(--icon-size);
+    }
+  </style>
+  <div class="container">
+    <x-if :value="loading">
+      {{name}}
+    </x-if>
+    <x-else>
+      <div :html="svg"></div>
+    </x-else>
+  </div>
+  <script>
+    export default async ({ load }) => {
+      return {
+        tag: "p-icon",
+        data: {
+          loading: true,
+          svg: "",
+        },
+        attrs: {
+          size: null,
+          name: null,
+          // 可以使用：网络地址、相对路径、绝对路径、文件路径 ，默认使用 p-icons 官方托管的地址 
+          rootPath: "lib"
+        },
+        proto: {
+          async renderCom() {
+            const { name, rootPath } = this;
+            if (!name) {
+              console.error('The name parameter is required');
+              return;
+            }
+            if (!rootPath) {
+              console.error('The rootPath parameter is required');
+              return;
+            }
+            try {
+              this.loading = true
+              const finalPath = this.joinPath(this.rootPath, `${this.name}2.svg`);
+              const svgResult = await load(finalPath).then(res => res.text());
+              this.loading = false
+              this.svg = svgResult;
+            } catch (error) {
+              console.error(`Failed to load ${this.name}-icon.html`)
+            }
+          },
+          joinPath(...paths) {
+            return paths.map((part, index) => {
+              if (index === 0) {
+                return part.trim().replace(/[\/]*$/g, '');
+              } else {
+                return part.trim().replace(/(^[\/]*|[\/]*$)/g, '');
+              }
+            }).filter(x => x.length).join('/');
+          }
+        },
+        watch: {
+          size(size) {
+            if (size) {
+              this.style.setProperty("--icon-size", `var(--pui-${size}-size)`);
+            }
+          },
+          async name(name) {
+            await this.renderCom();
+          },
+          async rootPath(rootPath) {
+            await this.renderCom();
+          }
+        },
+      }
+    };
+  </script>
+</template>
