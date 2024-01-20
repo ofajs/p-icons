@@ -19,14 +19,14 @@
     }
   </style>
   <div class="container">
-    <x-if :value="loading">
-      {{name}}
-    </x-if>
+    <x-if :value="loading"> {{name}} </x-if>
     <x-else>
       <div :html="svg"></div>
     </x-else>
   </div>
   <script>
+    const defaultRootPath = "https://cdn.jsdelivr.net/npm/p-icons/lib/";
+
     export default async ({ load }) => {
       return {
         tag: "p-icon",
@@ -35,41 +35,42 @@
           svg: "",
         },
         attrs: {
-          size: '',
+          size: "",
           name: null,
-          // 可以使用：网络地址、相对路径、绝对路径、文件路径 ，默认使用 p-icons 官方托管的地址 
-          rootPath: "https://cdn.jsdelivr.net/npm/p-icons/lib/"
+          // 可以使用：网络地址、相对路径、绝对路径、文件路径 ，默认使用 p-icons 官方托管的地址
+          rootPath: null,
         },
         proto: {
           async renderCom() {
-            const { name, rootPath } = this;
+            const { name } = this;
             if (!name) {
-              console.error('The name parameter is required');
               return;
             }
-            if (!rootPath) {
-              console.error('The rootPath parameter is required');
-              return;
-            }
+
+            const rootPath = this.rootPath || defaultRootPath;
+
             try {
-              this.loading = true
-              const finalPath = this.joinPath(this.rootPath, `${this.name}.svg`);
-              const svgResult = await load(finalPath).then(res => res.text());
-              this.loading = false
+              this.loading = true;
+              const finalPath = this.joinPath(rootPath, `${this.name}.svg`);
+              const svgResult = await load(finalPath).then((res) => res.text());
+              this.loading = false;
               this.svg = svgResult;
             } catch (error) {
-              console.error(`Failed to load ${this.name}.svg`)
+              console.error(`Failed to load ${this.name}.svg`);
             }
           },
           joinPath(...paths) {
-            return paths.map((part, index) => {
-              if (index === 0) {
-                return part.trim().replace(/[\/]*$/g, '');
-              } else {
-                return part.trim().replace(/(^[\/]*|[\/]*$)/g, '');
-              }
-            }).filter(x => x.length).join('/');
-          }
+            return paths
+              .map((part, index) => {
+                if (index === 0) {
+                  return part.trim().replace(/[\/]*$/g, "");
+                } else {
+                  return part.trim().replace(/(^[\/]*|[\/]*$)/g, "");
+                }
+              })
+              .filter((x) => x.length)
+              .join("/");
+          },
         },
         watch: {
           size(size) {
@@ -82,9 +83,9 @@
           },
           async rootPath(rootPath) {
             await this.renderCom();
-          }
+          },
         },
-      }
+      };
     };
   </script>
 </template>
