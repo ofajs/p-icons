@@ -19,10 +19,7 @@
     }
   </style>
   <div class="container">
-    <x-if :value="loading"> </x-if>
-    <x-else>
-      <div :html="svg"></div>
-    </x-else>
+    <x-if :value="!loading"> <div :html="svg"></div> </x-if>
   </div>
   <script>
     const defaultRootPath = "https://cdn.jsdelivr.net/npm/p-icons/lib/";
